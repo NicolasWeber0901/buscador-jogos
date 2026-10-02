@@ -42,3 +42,6 @@ yarn-error.*
 
 # gabarito do professor (não vai para o GitHub)
 gabarito/
+
+# configurações locais do Claude Code
+.claude/
