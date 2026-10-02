@@ -10,7 +10,7 @@ App em React Native + Expo (SDK 57) do minicurso. Tem duas abas:
 Precisa do Node.js 20.19.4 ou mais novo.
 
 ```sh
-git clone <url-do-repositorio>
+git clone https://github.com/NicolasWeber0901/buscador-jogos.git
 cd buscador-jogos
 npm install
 npx expo start
