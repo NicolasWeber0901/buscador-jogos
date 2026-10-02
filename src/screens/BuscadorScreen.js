@@ -79,7 +79,7 @@ export default function BuscadorScreen() {
       </TouchableOpacity>
 
       {/* Enquanto carrega, mostra a bolinha girando */}
-      {loading && <ActivityIndicator size="large" color="#39FF14" style={styles.carregando} />}
+      {loading && <ActivityIndicator size="large" color="#9D4EDD" style={styles.carregando} />}
 
       {/* Card do jogo: só aparece se tiver um jogo e não estiver carregando */}
       {game && !loading && (
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   botao: {
-    backgroundColor: '#39FF14',
+    backgroundColor: '#9D4EDD',
     paddingVertical: 14,
     borderRadius: 12,
     alignItems: 'center',
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
     opacity: 0.5,
   },
   botaoTexto: {
-    color: '#000000',
+    color: '#FFFFFF', // texto branco para contrastar com o roxo
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   nome: {
-    color: '#39FF14',
+    color: '#9D4EDD',
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 8,

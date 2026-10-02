@@ -17,7 +17,7 @@ const tema = {
   ...DarkTheme,
   colors: {
     ...DarkTheme.colors,
-    primary: '#39FF14', // verde neon
+    primary: '#9D4EDD', // roxo (cor de destaque)
     background: '#121212', // fundo das telas
     card: '#1E1E1E', // fundo do cabeçalho e da barra de abas
     text: '#FFFFFF',
@@ -34,7 +34,7 @@ export default function App() {
 
       <Tab.Navigator
         screenOptions={{
-          tabBarActiveTintColor: '#39FF14', // cor da aba selecionada
+          tabBarActiveTintColor: '#9D4EDD', // cor da aba selecionada
           tabBarInactiveTintColor: '#888888', // cor das outras abas
         }}
       >
