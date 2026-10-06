@@ -15,10 +15,10 @@ import {
   StyleSheet,
 } from 'react-native';
 
-//   Passo 10: componentes criados por nós entram aqui
+// Passo 10: componentes criados por nós entram aqui
 
 export default function SandboxScreen() {
-  //   Estados e funções entram aqui
+  // Estados e funções entram aqui
 
   return (
     // ScrollView: uma View que rola. A tela vai ficar comprida!
@@ -27,7 +27,7 @@ export default function SandboxScreen() {
         Vamos montar esta tela juntos, um componente por vez.
       </Text>
 
-      {/*   Componentes entram aqui */}
+      {/* Componentes entram aqui */}
     </ScrollView>
   );
 }
