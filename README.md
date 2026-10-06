@@ -3,7 +3,7 @@
 App em React Native + Expo (SDK 57) do minicurso. Tem duas abas:
 
 - **Sandbox**: laboratório para testar componentes (`src/screens/SandboxScreen.js`)
-- **Buscador**: busca um jogo na API RAWG e mostra um card (`src/screens/BuscadorScreen.js`)
+- **Buscador**: busca jogos na API RAWG e mostra os 3 primeiros resultados em cards (`src/screens/BuscadorScreen.js`)
 
 ## Como rodar
 
